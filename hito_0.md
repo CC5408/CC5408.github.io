@@ -85,13 +85,13 @@ El nivel debe contener al jugador, a el / los consumibles y enemigos. También d
 
 ### 4. Lógica
 
-El juego consiste en un tablero formado de varias celdas que pueden estar vacías o tener una bomba. Si el jugador hace click en una celda con una bomba, se acaba el juego.
+El juego consiste en un tablero formado de varias celdas que pueden estar vacías o tener una bomba. Si el jugador hace click en una celda con una bomba, se acaba el juego y se revelan todas las celdas.
 
 Debe tener al menos las siguiente escenas:
 
 #### Tablero
 
-El tablero se debe generar al iniciar el juego, y consiste en una grilla formada por celdas.
+El tablero se debe generar al iniciar el juego. Consiste en una grilla de celdas, compuesta por una cantidad variable de filas y columnas.
 
 #### Celda
 
