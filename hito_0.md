@@ -91,7 +91,7 @@ Debe tener al menos las siguiente escenas:
 
 #### Tablero
 
-El tablero se debe generar al iniciar el juego. Consiste en una grilla de celdas, compuesta por una cantidad variable de filas y columnas.
+El tablero se debe generar al iniciar el juego. Consiste en una grilla de celdas, compuesta por una cantidad ajustable de filas y columnas.
 
 #### Celda
 
