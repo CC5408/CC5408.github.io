@@ -103,15 +103,16 @@ layout: page
 
 ## 4. Lógica
 
-- **[0.8] Tablero**
-  - (0.80) Animaciones: Explosión
+- **[1.25] Tablero**
+  - (1.00) Cantidad de filas y columnas ajustables
+  - (0.25) Animaciones: Revelar todo al perder
   
-- **[3.45] Celda**
-  - (0.75) Interarcción: Vacía
-  - (0.75) Interarcción: Bomba
-  - (0.75) Acción: Bandera
+- **[3.0] Celda**
+  - (0.70) Interarcción: Vacía
+  - (0.70) Interarcción: Bomba
+  - (0.70) Acción: Bandera
   - (0.60) Animaciones: Vacía, Bomba, Bandera (0.2 cada una)
-  - (0.60) Sonido: Vacía, Bomba, Bandera (0.15 cada una)
+  - (0.30) Sonido: Vacía, Bomba, Bandera (0.1 cada una)
   
 - **[0.75] Nivel**
   - (0.75) Nivel con tablero visible. Debe permitir cambiar la cantidad de filas y columnas.
