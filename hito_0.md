@@ -10,7 +10,7 @@ Como primer proyecto deben realizar un videojuego de manera individual utilizand
 
 ## Opciones de Proyecto
 
-### 1. Platformer
+### **1. Platformer**
 
 El juego consiste en un personaje que puede moverse, saltar y aplastar enemigos.
 
@@ -89,13 +89,13 @@ El juego consiste en un tablero formado de varias celdas que pueden estar vacía
 
 Debe tener al menos las siguiente escenas:
 
-#### Celda
-
-Una celda puede contener una bomba o estar vacía de manera aleatoria. Cuando el jugador hace click en una celda, si contiene una bomba, la celda debe explotar y se acaba el juego. Si la celda está vacía, debe quedar desactivada y no reaccionar más a los clicks del jugador. Debe tener animaciones de explosión y desactivación de la celda.
-
 #### Tablero
 
 El tablero se debe generar al iniciar el juego, y consiste en una grilla formada por celdas.
+
+#### Celda
+
+Una celda puede contener una bomba o estar vacía. Al hacer click se revela, si tiene bomba la celda debe explotar y se acaba el juego, si está vacía se muestra un número que indique la cantidad de bombas que rodean la celda. De igual manera, al hacer click secundario en una celda no revelada, se pone / saca una bandera, la cual al estar presente impide revelar la celda. Debe tener animaciones de revelar, explosión y bandera.
 
 #### Nivel
 
