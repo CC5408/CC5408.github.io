@@ -107,7 +107,7 @@ layout: page
   - (0.35) Revelar todas las celdas al perder
   
 - **[3.9] Celda**
-  - (1.00) Interarcción: Vacía
+  - (1.00) Interarcción: Vacía (Revelar el número de bombas adyacentes)
   - (1.00) Interarcción: Bomba
   - (1.00) Acción: Bandera
   - (0.60) Animaciones: Vacía, Bomba, Bandera (0.2 cada una)
