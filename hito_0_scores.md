@@ -103,14 +103,13 @@ layout: page
 
 ## 4. Lógica
 
-- **[1.25] Tablero**
-  - (1.00) Cantidad de filas y columnas ajustables
-  - (0.25) Animaciones: Revelar todo al perder
+- **[0.35] Tablero**
+  - (0.35) Revelar todas las celdas al perder
   
-- **[3.0] Celda**
-  - (0.70) Interarcción: Vacía
-  - (0.70) Interarcción: Bomba
-  - (0.70) Acción: Bandera
+- **[3.9] Celda**
+  - (1.00) Interarcción: Vacía
+  - (1.00) Interarcción: Bomba
+  - (1.00) Acción: Bandera
   - (0.60) Animaciones: Vacía, Bomba, Bandera (0.2 cada una)
   - (0.30) Sonido: Vacía, Bomba, Bandera (0.1 cada una)
   
