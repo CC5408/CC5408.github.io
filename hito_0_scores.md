@@ -32,7 +32,7 @@ layout: page
     - (0.10) Continuar. (El juego debe pausarse al abrir el menu)
     - (0.10) Reiniciar. (El juego debe continuarse al poner continuar)
     - (0.10) Volver a menu. (Bug común: no debe seguir pausado al volver al menú principal)
-    - (0.05) Sal  ir del juego
+    - (0.05) Salir del juego
   - [0.45] Créditos. 
     - Debe mencionar assets usados según la licencia que tengan
 
@@ -63,7 +63,7 @@ layout: page
     - (0.10) Continuar. (El juego debe pausarse al abrir el menu)
     - (0.10) Reiniciar. (El juego debe continuarse al poner continuar)
     - (0.10) Volver a menu. (Bug común: no debe seguir pausado al volver al menú principal)
-    - (0.05) Sal  ir del juego
+    - (0.05) Salir del juego
   - [0.45] Créditos. 
     - Debe mencionar assets usados según la licencia que tengan
 
@@ -93,7 +93,7 @@ layout: page
     - (0.10) Continuar. (El juego debe pausarse al abrir el menu)
     - (0.10) Reiniciar. (El juego debe continuarse al poner continuar)
     - (0.10) Volver a menu. (Bug común: no debe seguir pausado al volver al menú principal)
-    - (0.05) Sal  ir del juego
+    - (0.05) Salir del juego
   - [0.45] Créditos. 
     - Debe mencionar assets usados según la licencia que tengan
 
@@ -124,7 +124,7 @@ layout: page
     - (0.10) Continuar. (El juego debe pausarse al abrir el menu)
     - (0.10) Reiniciar. (El juego debe continuarse al poner continuar)
     - (0.10) Volver a menu. (Bug común: no debe seguir pausado al volver al menú principal)
-    - (0.05) Sal  ir del juego
+    - (0.05) Salir del juego
   - [0.45] Créditos. 
     - Debe mencionar assets usados según la licencia que tengan
 
