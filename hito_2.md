@@ -18,7 +18,10 @@ El resto de aspectos del juego no es necesario que estén terminados, pueden usa
 
 Al igual que en el Hito 1, pueden ocupar un ppt como apoyo, pero no es necesario. El video no tiene duración determinada, mientras muestren y expliquen los puntos anteriores está bien (por favor no entreguen un video de 10 segundos solo mostrando su juego y sin decir nada, si hacen eso no esperen una buena nota).
 
-Ejemplo de video: https://www.youtube.com/watch?v=pW1r4eVxaBk
+Ejemplos de video: 
+- https://www.youtube.com/watch?v=pW1r4eVxaBk
+- https://www.youtube.com/watch?v=FgVEXQnCKCE
+- https://www.youtube.com/watch?v=Vlbp7rFHQbw 
 
 ## Entrega
 
