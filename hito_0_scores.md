@@ -29,9 +29,9 @@ layout: page
     - (0.10) Acceder al nivel
     - (0.10) Salir del juego
   - [0.35] Menú de pausa.
-    - (0.10) Continuar. (El juego debe pausarse al abrir el menu)
+    - (0.10) Continuar. (El juego debe pausarse al abrir el menú)
     - (0.10) Reiniciar. (El juego debe continuarse al poner continuar)
-    - (0.10) Volver a menu. (Bug común: no debe seguir pausado al volver al menú principal)
+    - (0.10) Volver a menú. (Bug común: no debe seguir pausado al volver al menú principal)
     - (0.05) Salir del juego
   - [0.45] Créditos. 
     - Debe mencionar assets usados según la licencia que tengan
@@ -60,9 +60,9 @@ layout: page
     - (0.10) Acceder al nivel
     - (0.10) Salir del juego
   - [0.35] Menú de pausa.
-    - (0.10) Continuar. (El juego debe pausarse al abrir el menu)
+    - (0.10) Continuar. (El juego debe pausarse al abrir el menú)
     - (0.10) Reiniciar. (El juego debe continuarse al poner continuar)
-    - (0.10) Volver a menu. (Bug común: no debe seguir pausado al volver al menú principal)
+    - (0.10) Volver a menú. (Bug común: no debe seguir pausado al volver al menú principal)
     - (0.05) Salir del juego
   - [0.45] Créditos. 
     - Debe mencionar assets usados según la licencia que tengan
@@ -74,7 +74,7 @@ layout: page
 
 - **[1.75] Jugador**
   - (1.00) Movimiento: en todas las direcciones
-  - (0.75) Animaciones: Idle, Mobimiento, Recolección (0.25 cada una)
+  - (0.75) Animaciones: Idle, Movimiento, Recolección (0.25 cada una)
 
 - **[2.50] Enemigo & Interacciones**
   - (1.00) Consumible: se puede recoger
@@ -90,9 +90,9 @@ layout: page
     - (0.10) Acceder al nivel
     - (0.10) Salir del juego
   - [0.35] Menú de pausa.
-    - (0.10) Continuar. (El juego debe pausarse al abrir el menu)
+    - (0.10) Continuar. (El juego debe pausarse al abrir el menú)
     - (0.10) Reiniciar. (El juego debe continuarse al poner continuar)
-    - (0.10) Volver a menu. (Bug común: no debe seguir pausado al volver al menú principal)
+    - (0.10) Volver a menú. (Bug común: no debe seguir pausado al volver al menú principal)
     - (0.05) Salir del juego
   - [0.45] Créditos. 
     - Debe mencionar assets usados según la licencia que tengan
@@ -107,8 +107,8 @@ layout: page
   - (0.35) Revelar todas las celdas al perder
   
 - **[3.9] Celda**
-  - (1.00) Interarcción: Vacía (Revelar el número de bombas adyacentes)
-  - (1.00) Interarcción: Bomba
+  - (1.00) Interacción: Vacía (Revelar el número de bombas adyacentes)
+  - (1.00) Interacción: Bomba
   - (1.00) Acción: Bandera
   - (0.60) Animaciones: Vacía, Bomba, Bandera (0.2 cada una)
   - (0.30) Sonido: Vacía, Bomba, Bandera (0.1 cada una)
@@ -121,9 +121,9 @@ layout: page
     - (0.10) Acceder al nivel
     - (0.10) Salir del juego
   - [0.35] Menú de pausa.
-    - (0.10) Continuar. (El juego debe pausarse al abrir el menu)
+    - (0.10) Continuar. (El juego debe pausarse al abrir el menú)
     - (0.10) Reiniciar. (El juego debe continuarse al poner continuar)
-    - (0.10) Volver a menu. (Bug común: no debe seguir pausado al volver al menú principal)
+    - (0.10) Volver a menú. (Bug común: no debe seguir pausado al volver al menú principal)
     - (0.05) Salir del juego
   - [0.45] Créditos. 
     - Debe mencionar assets usados según la licencia que tengan
