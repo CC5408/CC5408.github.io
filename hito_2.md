@@ -25,4 +25,4 @@ Ejemplos de video:
 
 ## Entrega
 
-Deben subir el video a Youtube y entregar el link al video en la tarea que se habilitará en u-cursos.
+Deben subir el video a Youtube y entregar el link al video en la tarea que se habilitará en u-cursos, además de un link de itch.io que permita descargar el ejecutable.
