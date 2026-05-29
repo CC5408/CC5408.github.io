@@ -36,3 +36,5 @@ considerará que sea una buena entrega.
 
 En el primer devlog que van a hacer se pide que se enfoquen en presentarse, contar quienes son y lo que van a hacer, contar la idea del juego que tienen, hablar un poco de como planean desarrollar la idea, y agregar una imagen.
 
+## Entrega combinada con Hito 1 y 2
+En caso de tener una entrega de Devlog y de Hito en la **misma semana** será posible usar el mismo enlace para ambas entregas, incluyendo la demo del Hito en el Devlog mismo.
