@@ -8,7 +8,7 @@ layout: page
 
 ## Presentación
 
-El Hito 3 es el exámen del curso. Consiste en una presentación en la que deben explicar y mostrar su juego por completo. Es necesario que expliquen toda la idea de su juego, pues el público contendrá gente que nunca ha visto su juego.
+El Hito 3 es el exámen del curso. Consiste en una presentación en la que deben explicar y mostrar su juego por completo. Es necesario que expliquen toda la idea de su juego, pues el público contendrá gente que nunca ha visto su juego. NO ES PRESENTACIÓN DE AVANCE.
 
 Al ser la presentación final, su juego debe estar terminado. Esto quiere decir que debe tener un menú principal, menú de pausa, un inicio, un final, tutorial, **PANTALLA DE CRÉDITOS**, la mecánica innovadora debe estar completamente funcional, no pueden tener assets temporales, etc.
 
