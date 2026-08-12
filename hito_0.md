@@ -28,13 +28,14 @@ La cámara debe seguir al jugador y mostrar hacia donde este quiere moverse.
 La posición y orientación de la cámara se deben derivar del mismo movimiento, no se debe usar el mouse para mover la cámara.
 No es válido que esté fija a la parte de atrás del jugador.
 
-#### Enemigo
+#### Enemigos
 
-El enemigo no necesariamente debe ser capaz de moverse. Debe dañar / destruir al jugador si ocurre una colisión, a menos que esta se produzca desde arriba.
+Los enemigos no necesariamente debe ser capaces de moverse. Deben dañar / destruir al jugador si ocurre una colisión, a menos que esta se produzca desde arriba.
+Deben aparecer más enemigos a lo largo del tiempo. Los enemigos no deben aparecer dentro de otro enemigo.
 
 #### Nivel
 
-El nivel debe contener varias plataformas sobre las cuales se encuentre el jugador y el / los enemigos.
+El nivel debe contener un piso y al menos tres plataformas sobre las cuales se encuentre el jugador y los enemigos.
 
 ---
 
@@ -60,38 +61,44 @@ Se debe poder apretar un botón para apuntar con el arma, es decir, mover y/o ha
 El proyectil debe moverse en la dirección que fue disparado y al colisionar con un enemigo lo tiene que dañar / destruir.
 Debe tener sonido al chocar con un enemigo.
 
-#### Enemigo
+#### Enemigos
 
-El enemigo no necesariamente debe ser capaz de moverse. Tiene que ser destruible por un proyectil y dañar al jugador en caso de colisión.
+Los enemigos no necesariamente deben ser capaz de moverse. Tienen que ser destruibles por un proyectil y dañar al jugador en caso de colisión.
 
 #### Nivel
 
-El nivel debe contener al jugador y a el / los enemigos. También debe poseer bloques / muros con los que el jugador y proyectiles colisionen.
+El nivel debe contener al jugador y a los enemigos. También debe poseer bloques / muros con los que el jugador y proyectiles colisionen.
 
 ---
 
-### 3. Arcade
+### 3. Racing
 
-El juego consiste en un personaje que puede moverse, recolectar consumibles y ser destruido por enemigos.
+El juego consiste en un auto que se puede mover y chocar con enemigos.
 
-Debe tener al menos las siguiente escenas:
+Debe tener al menos los siguientes elementos:
 
 #### Jugador
 
-El jugador debe ser capaz de moverse en todas direcciones. Si colisiona con un consumible debe recolectarlo y al colisionar con un enemigo deber ser destruido.
-Debe tener al menos animaciones de idle, movimiento, recolectar y sonido al recolectar y ser destruido.
+El jugador debe ser capaz de acelerar y frenar e ir en reversa.
+Si colisiona con un enemigo a baja velocidad debe recibir daño / ser destruido.
+Si colisiona con un enemigo a alta velocidad debe destruirlo.
+Debe poseer luces delanteras que pueda prender y apagar con un botón, y luces traseras que se prendan al frenar y retroceder.
+Debe tener sonido de avance, retroceso, bocina y choque.
 
-#### Consumible
+#### Cámara
+Tienen que haber al menos tres cámaras.
+Una en tercera persona que permita ver al auto desde atrás. Su posición y orientación es determinada por la posición del auto y no se mueve con el mouse.
+Una en primera persona donde se vea el auto desde dentro.
+Una que permita ver hacia atrás.
 
-El consumible debe poder ser recolectado por el jugador. Una vez recolectado desaparece de la pantalla.
+#### Enemigos
 
-#### Enemigo
-
-El enemigo no necesariamente debe ser capaz de moverse. Si colisiona con el jugador, debe destruirlo.
+Los enemigos no necesariamente deben ser capaz de moverse. Si colisionan con el jugador a alta velocidad son destruidos y a baja velocidad lo dañan / destruyen.
+Luego de ser destruido, un enemigo debe volver a aparecer en el mismo lugar, siempre y cuando no aparezca dentro el jugador.
 
 #### Nivel
 
-El nivel debe contener al jugador, a el / los consumibles y enemigos. También debe poseer muros con los que el jugador puede colisionar.
+El nivel debe contener al jugador y a los  enemigos. Debe tener elevaciones de terreno y/o rampas. No puede ser solo un plano infinito y nada más.
 
 ---
 
