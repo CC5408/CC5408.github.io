@@ -134,7 +134,7 @@ Deben tener un sonido al avisar de su aparición, aparecer y morir.
 
 El tablero consiste en un conjunto de casillas organizadas en forma de grilla. Estas casillas deben estar conectadas entre si y proveer el piso por sobre el cual debe moverse el personaje y aparecer enemigos.
 La cantidad y posicionamiento de casillas debe producir un tablero que no sea trivial de resolver para el jugador.
-Se debe tener al menos 5 tableros distintos que puedan ser jugador en sucesión.
+Se debe tener al menos 3 tableros distintos que puedan ser jugador en sucesión.
 
 
 ## Entrega
