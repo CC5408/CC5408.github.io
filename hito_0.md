@@ -31,7 +31,7 @@ No es válido que esté fija a la parte de atrás del jugador.
 #### Enemigos
 
 Los enemigos no necesariamente debe ser capaces de moverse. Deben dañar / destruir al jugador si ocurre una colisión, a menos que esta se produzca desde arriba.
-Deben aparecer más enemigos a lo largo del tiempo. Los enemigos no deben aparecer dentro de otro enemigo.
+Deben aparecer más enemigos a lo largo del tiempo. Los enemigos no deben aparecer dentro de otro enemigo o del jugador.
 
 #### Nivel
 
@@ -63,7 +63,7 @@ Debe tener sonido al chocar con un enemigo.
 
 #### Enemigos
 
-Los enemigos no necesariamente deben ser capaz de moverse. Tienen que ser destruibles por un proyectil y dañar al jugador en caso de colisión.
+Los enemigos no necesariamente deben ser capaces de moverse. Tienen que ser destruibles por un proyectil y dañar al jugador en caso de colisión.
 
 #### Nivel
 
@@ -86,6 +86,7 @@ Debe poseer luces delanteras que pueda prender y apagar con un botón, y luces t
 Debe tener sonido de avance, retroceso, bocina y choque.
 
 #### Cámara
+
 Tienen que haber al menos tres cámaras.
 Una en tercera persona que permita ver al auto desde atrás. Su posición y orientación es determinada por la posición del auto y no se mueve con el mouse.
 Una en primera persona donde se vea el auto desde dentro.
@@ -93,32 +94,48 @@ Una que permita ver hacia atrás.
 
 #### Enemigos
 
-Los enemigos no necesariamente deben ser capaz de moverse. Si colisionan con el jugador a alta velocidad son destruidos y a baja velocidad lo dañan / destruyen.
-Luego de ser destruido, un enemigo debe volver a aparecer en el mismo lugar, siempre y cuando no aparezca dentro el jugador.
+Los enemigos no necesariamente deben ser capaces de moverse. Si colisionan con el jugador a alta velocidad son destruidos y a baja velocidad lo dañan / destruyen.
+Luego de ser destruidos, y al pasar un tiempo, deben volver a aparecer, siempre y cuando no aparezcan dentro  del jugador u otro enemigo.
 
 #### Nivel
 
-El nivel debe contener al jugador y a los  enemigos. Debe tener elevaciones de terreno y/o rampas. No puede ser solo un plano infinito y nada más.
+El nivel debe contener al jugador y a los enemigos. Debe tener elevaciones de terreno y/o rampas. No puede ser solo un plano infinito y nada más.
 
 ---
 
-### 4. Lógica
+### 4. Puzzle
 
-El juego consiste en un tablero formado de varias celdas que pueden estar vacías o tener una bomba. Si el jugador hace click en una celda con una bomba, se acaba el juego y se revelan todas las celdas.
+El juego consiste en llegar desde una celda inicial a una final. El personaje es un bloque de 1x2 que solo puede moverse al rotar sobre sus aristas en 90 grados. En el tablero deben aparecer enemigos que matan al jugador al tocarlo y pueden ser destruidos al clickearlos.
 
-Debe tener al menos las siguiente escenas:
+Debe tener al menos los siguientes elementos:
+
+#### Jugador
+
+El jugador es un bloque de 1x2 unidades. En cada estado, posee 4 direcciones de movimiento las que al realizarse provocan que este rote en 90 grados sobre la arista en esa dirección que está en contacto con el tablero.
+Si es que alguna parte del cuerpo del jugador se sale del tablero entonces este cae al vacío / muere y es teletransportado a la casilla inicial.
+Si el jugador colisiona con la casilla de meta entonces se avanza al siguiente nivel.
+Si el jugador colisiona con un enemigo, muere y es teletransportado a la casilla inicial.
+Debe tener al menos animación de rotación, victoria y muerte.
+Debe tener un sonido al rotar, ganar y morir.
+
+#### Cámara
+
+La cámara es fija y permite ver todo el tablero.
+Debe acercarse y enfocar al jugador cuando muere y gana.
+
+#### Enemigos
+
+Los enemigos no deben ser capaces de moverse. Si colisionan con el jugador lo matan. Si el jugador les hace click, se destruyen.
+Deben aparecer constantemente con el tiempo, indicando su casilla de aparición antes de hacerlo.
+Un enemigo no puede aparecer dentro de otro enemigo o dentro del jugador.
+Deben tener un sonido al avisar de su aparición, aparecer y morir.
 
 #### Tablero
 
-El tablero se debe generar al iniciar el juego. Consiste en una grilla de celdas, compuesta por una cantidad ajustable de filas y columnas.
+El tablero consiste en un conjunto de casillas organizadas en forma de grilla. Estas casillas deben estar conectadas entre si y proveer el piso por sobre el cual debe moverse el personaje y aparecer enemigos.
+La cantidad y posicionamiento de casillas debe producir un tablero que no sea trivial de resolver para el jugador.
+Se debe tener al menos 5 tableros distintos que puedan ser jugador en sucesión.
 
-#### Celda
-
-Una celda puede contener una bomba o estar vacía. Al hacer click se revela, si tiene bomba la celda debe explotar y se acaba el juego, si está vacía se muestra un número que indique la cantidad de bombas que rodean la celda. De igual manera, al hacer click secundario en una celda no revelada, se pone / saca una bandera, la cual al estar presente impide revelar la celda. Debe tener animaciones de revelar, explosión y bandera.
-
-#### Nivel
-
-En el nivel debe estar el tablero. También debe exister la opcion de cambiar su número de filas y columnas.
 
 ## Entrega
 Deben crear un proyecto en [itch.io](https://itch.io):
@@ -126,7 +143,7 @@ Deben crear un proyecto en [itch.io](https://itch.io):
 - Subir un **ejecutable generado por Godot**, no el proyecto de Godot. *Recomendación:* Decargar el juego de la página de itch.io y revisar que funcione.
 - Incluir **los controles de su juego** en la página.
 ### Importante
-- Si el equipo docente no puede acceder a una carácteristica (por ejemplo, implementaron el daño de los enemigos pero no hay enemigos en el nivel) **se hará descuento como si no estuviese implementado**.
+- Si el equipo docente no puede acceder a una característica (por ejemplo, implementaron el daño de los enemigos pero no hay enemigos en el nivel) **se hará descuento como si no estuviese implementado**.
 - **No está permitido usar assets con copyright**. Deben dar créditos a todos los assets que usen según las licencias correspondientes.
 
-Es factible crear variaciones de los juegos mientras estén dentro de las mismas 4 categorías e incluyan los elementos mínimos enunciados. Por ejemplo es válido hacer un platformer en que aplastes botones para abrir puertas y existan pinchos en el suelo con los que morir en vez de tener enemigos, o un shooter donde seas un personaje que dispara balas contra enemigos o un arcade que sea similar al juego snake. Ante cualquier duda sobre alguna idea alterna, cambio o variación, consúltenlo con el equipo docente. 
+Es factible crear variaciones de los juegos mientras estén dentro de las mismas 4 categorías e incluyan los elementos mínimos enunciados. Por ejemplo es válido hacer un platformer en que aplastes botones para abrir puertas y existan pinchos en el suelo con los que morir en vez de tener enemigos, o un shooter donde los enemigos disparan y se tiene que esquivar, u otro juego de puzzle que incluya la aparición de elementos y manejos de cámara. Ante cualquier duda sobre alguna idea alterna, cambio o variación, consúltenlo primero con el equipo docente. 
