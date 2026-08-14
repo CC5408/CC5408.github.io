@@ -115,7 +115,7 @@ Debe tener al menos los siguientes elementos:
 #### Jugador
 
 El jugador es un bloque de 1x2 unidades. En cada estado, posee 4 direcciones de movimiento las que al realizarse provocan que este rote en 90 grados sobre la arista en esa dirección que está en contacto con el tablero.\
-Si es que alguna parte del cuerpo del jugador se sale del tablero entonces este cae al vacío / muere y es teletransportado a la celda inicial.\
+Si es que alguna parte del cuerpo del jugador se sale del tablero entonces este cae al vacío y es teletransportado a la celda inicial.\
 Si el jugador colisiona con la celda de meta entonces se avanza al siguiente tablero.\
 Si el jugador colisiona con un enemigo, muere y es teletransportado a la celda inicial.\
 Debe tener al menos animación de victoria y muerte.\
